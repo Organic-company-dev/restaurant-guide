@@ -1,0 +1,21 @@
+.hero {
+background: linear-gradient(rgba(0,0,0,0.5), url('hero-bg.jpg'));
+color: white;
+}
+/* เพิ่ม/แก้ไข Style สำหรับปุ่ม CTA ในส่วน Hero */
+.hero button {
+    /* Style พื้นฐานของปุ่ม */
+    padding: 10px 20px;
+    background-color: #ff6600; /* สีส้ม */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* ทำให้ปุ่มโค้งมนเล็กน้อย */
+    transition: background-color 0.3s ease; /* เพิ่ม Transition เพื่อให้การเปลี่ยนสีราบรื่น */
+}
+
+/* Hover Effect: เมื่อเมาส์ชี้ */
+.hero button:hover {
+    background-color: #e65c00; /* เปลี่ยนเป็นสีส้มที่เข้มขึ้น */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเล็กน้อย */
+}
